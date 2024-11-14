@@ -1,1 +1,1 @@
-Carpeta par trabajos de Interfaces Web
+Carpeta para trabajos de Interfaces Web
