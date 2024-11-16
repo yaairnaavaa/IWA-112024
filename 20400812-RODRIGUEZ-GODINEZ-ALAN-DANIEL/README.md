@@ -1,1 +1,0 @@
-Esta carpeta es la caperta contenedora de mis actividades de la materia Interfaces Web  creada por el Alumno Alan Daniel Rodriguez Godinez 
