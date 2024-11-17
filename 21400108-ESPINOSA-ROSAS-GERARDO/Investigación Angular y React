@@ -1,0 +1,49 @@
+# Angular vs React
+
+**Angular** y **React** son dos de los frameworks o bibliotecas de JavaScript más populares para construir interfaces de usuario y aplicaciones web modernas. Aquí un resumen de cada uno y sus diferencias clave:
+
+---
+
+## Angular
+
+1. **Qué es**: Framework de JavaScript basado en TypeScript, desarrollado por Google para construir aplicaciones SPA.
+2. **Lenguaje**: Usa TypeScript, que ofrece tipado fuerte y es útil para aplicaciones grandes.
+3. **Estructura**: Basado en arquitectura MVC con módulos y servicios.
+4. **CLI**: Angular CLI facilita la creación de proyectos y componentes.
+5. **Data Binding**: Bidireccional (sincronización entre vista y modelo).
+6. **Inyección de Dependencias**: Sí, para una arquitectura modular y escalable.
+7. **Templating**: HTML extendido con directivas (`*ngIf`, `*ngFor`).
+8. **Curva de Aprendizaje**: Más pronunciada.
+9. **Uso común**: Aplicaciones empresariales de gran escala.
+
+---
+
+## React
+
+1. **Qué es**: Biblioteca de JavaScript creada por Meta, enfocada en la capa de vista de la aplicación.
+2. **Lenguaje**: JavaScript con JSX, una extensión que permite escribir HTML en JavaScript.
+3. **Estructura**: Basado en componentes, más flexible que Angular.
+4. **CLI**: No oficial, se usa comúnmente Create React App (CRA).
+5. **Data Binding**: Unidireccional (flujo de datos de padre a hijo).
+6. **Estado y Gestión del Estado**: Hooks (`useState`, `useEffect`) y bibliotecas como Redux.
+7. **JSX y Componentes Funcionales**: JSX permite escribir componentes de manera declarativa.
+8. **Curva de Aprendizaje**: Más suave al inicio.
+9. **Uso común**: Aplicaciones interactivas, SPA, y aplicaciones móviles.
+
+---
+
+## Comparación Clave
+
+| Aspecto               | Angular                                   | React                                     |
+|-----------------------|-------------------------------------------|-------------------------------------------|
+| Tipo                  | Framework completo                        | Biblioteca enfocada en la UI              |
+| Arquitectura          | Basado en módulos y servicios             | Basado en componentes                     |
+| Lenguaje              | TypeScript                                | JavaScript (JSX opcional)                 |
+| Data Binding          | Bidireccional                             | Unidireccional                            |
+| Inyección de Dependencias | Sí                                  | No (se hace a través de contexto o props) |
+| Curva de Aprendizaje  | Más pronunciada                          | Más suave inicialmente                    |
+| CLI                   | Angular CLI                               | No oficial (Create React App es popular)  |
+| Manejo del Estado     | Servicios y componentes                   | Hooks, Redux, Context API                 |
+| Aplicaciones Comunes  | Aplicaciones empresariales grandes        | Interfaces dinámicas y SPA interactivas   |
+| Templating            | HTML extendido con directivas             | JSX                                       |
+
