@@ -1,0 +1,1 @@
+Esta sera la carpeta donde se guardaran las actividades en clase, comenzando por la creacion de una rama enm git
