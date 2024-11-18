@@ -1,0 +1,61 @@
+Investigación Angular y React
+
+Angular y React son dos de los frameworks y bibliotecas más populares para el desarrollo de aplicaciones web modernas. A continuación, se presenta una investigación detallada sobre ambos.
+
+Angular
+
+- Desarrollado por Google
+- Lanzado en 2010
+- Versión actual: Angular 14
+- Tipo: Framework MVC (Model-View-Controller)
+- Lenguajes: TypeScript, JavaScript
+- Características:
+    - Arquitectura basada en componentes
+    - Enlace de datos bidireccional
+    - Servicios y dependencias inyectadas
+    - Soporte para routing y navegación
+    - Integración con otras tecnologías de Google (Firebase, Google Cloud)
+
+
+React
+
+- Desarrollado por Facebook
+- Lanzado en 2013
+- Versión actual: React 18
+- Tipo: Biblioteca de componentes
+- Lenguajes: JavaScript, JSX
+- Características:
+    - Arquitectura basada en componentes
+    - Enlace de datos unidireccional
+    - Virtual DOM para mejorar el rendimiento
+    - Soporte para Hooks y Context API
+    - Integración con otras tecnologías de Facebook (GraphQL, Relay)
+
+
+Ventajas y desventajas
+
+Angular
+
+Ventajas:
+
+- Arquitectura bien definida
+- Soporte para grandes aplicaciones
+- Integración con otras tecnologías de Google
+
+Desventajas:
+
+- Curva de aprendizaje moderada
+- Puede ser lento para aplicaciones pequeñas
+
+React
+
+Ventajas:
+
+- Fácil de aprender
+- Excelente rendimiento
+- Gran comunidad y documentación
+
+Desventajas:
+
+- No tiene una arquitectura bien definida
+- Puede requerir librerías adicionales para funcionalidades básicas
