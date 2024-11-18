@@ -1,0 +1,19 @@
+Introducción inicial
+En el ámbito de la creación web, hay herramientas que simplifican la elaboración de aplicaciones contemporáneas. Angular y React son dos de las más famosas. Ambas facilitan la creación de aplicaciones dinámicas, aunque poseen atributos y perspectivas distintos. Esta investigación detalla su definición, su funcionamiento y sus diferencias.
+
+¿Qué significa Angular?
+Angular es un framework creado en 2010 por Google. Es similar a un conjunto de instrumentos que simplifica la creación de aplicaciones web de gran tamaño y complejidad. Se fundamenta en TypeScript, un lenguaje que contribuye a evitar fallos. Sus principales atributos incluyen la Unión de Datos de Dos Vías, que sincroniza automáticamente los datos entre la interfaz y el código, y una estructura integral para gestionar datos, componentes y pruebas. Angular es perfecto para aplicaciones como comercios virtuales, donde la información varía continuamente.
+
+¿Qué significa React?
+React es una librería creada en 2013 por Facebook. En contraste con Angular, React pone su atención exclusiva en la interfaz de usuario. Emplea un DOM Virtual, que acelera los cambios en la página. Además, utiliza elementos reutilizables y una combinación de HTML y JavaScript denominada JSX para la creación de interfaces. React es perfecto para plataformas sociales como Instagram, en las que las publicaciones y los comentarios se modifican de manera continua.
+
+Aspectos distintivos entre Angular y React
+
+Especificación de herramienta: Angular es un marco de trabajo integral que abarca todas las funciones requeridas, en cambio, React es una librería centrada exclusivamente en la interfaz de usuario.
+Lenguaje: Angular emplea TypeScript, un lenguaje más riguroso y sólido, en cambio, React utiliza JavaScript con JSX.
+Gradiente de aprendizaje: Angular puede resultar más complicado de aprender por su complejidad, en cambio, React es más simple y adaptable.
+Rendimiento: Por su Virtual DOM, React suele ser más veloz, mientras que Angular puede ser más pausado en ciertas tareas.
+Utilizaciones perfectas: Angular es más adecuado para proyectos de gran envergadura y complejidad, 
+en cambio, React es perfecto para aplicaciones modulares o más sencillas.
+
+Angular y React, son instrumentos esenciales para la creación de aplicaciones en línea. Angular es más exhaustivo, pero también más complicado de utilizar, en cambio, React es más sencillo y adaptable. La decisión se basa en el proyecto que desees llevar a cabo.
