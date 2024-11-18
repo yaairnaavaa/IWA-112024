@@ -1,0 +1,29 @@
+Investigación de Angular y React
+
+
+Angular:
+Es un framework de desarrollo web creado por Google, utilizado principalmente para construir 
+aplicaciones web de una sola página (Single Page Applications o SPA). Es un framework completo 
+basado en TypeScript, con herramientas incorporadas para manejo del estado, enrutamiento y creación de componentes.
+
+React:
+Es una biblioteca de JavaScript desarrollada por Facebook, diseñada para construir interfaces de usuario. 
+React se enfoca únicamente en la capa de vista de una aplicación y permite el desarrollo de componentes reutilizables 
+que gestionan su propio estado.
+
+Casos de uso
+Angular:
+
+Aplicaciones empresariales grandes y complejas.
+Proyectos donde se requiere una estructura bien definida desde el principio.
+Ejemplo: Paneles de administración, ERP, sistemas de facturación.
+React:
+
+Aplicaciones interactivas con mucho movimiento en la interfaz.
+Proyectos donde la reutilización de componentes es clave.
+Ejemplo: Aplicaciones móviles, dashboards, redes sociales.
+
+Conclusión
+Angular es ideal para proyectos grandes y estructurados, mientras que React es más apropiado para aplicaciones
+con interfaces dinámicas y desarrollo ágil. La elección depende de las necesidades del proyecto y las habilidades del equipo.
+
