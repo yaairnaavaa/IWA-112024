@@ -1,0 +1,73 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+         INVESTIGACIÓN ANGULAR Y REACT 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 ANGULAR
+━━━━━━━━━━━━━━━━━━━━━━━
+📌 **Definición:**
+   - Angular es un framework de desarrollo web creado por Google, utilizado principalmente para construir aplicaciones 
+   web dinámicas y de una sola página (SPA). Se basa en TypeScript y ofrece una estructura completa para el desarrollo 
+   de proyectos grandes y complejos.
+
+📌 **Características principales:**
+   - > Utiliza TypeScript, lo que permite un código más estructurado y fácil de mantener.
+     > Ofrece una solución todo-en-uno, incluyendo herramientas para enrutamiento, manejo de formularios, validación, y más.
+     > Está basado en una arquitectura de componentes y servicios, lo que facilita la organización y reutilización del código.
+     > Proporciona soporte integrado para pruebas (unitarias y de integración) y la inyección de dependencias.
+
+📌 **Ejemplo de uso:**
+   - Angular es ideal para aplicaciones empresariales de gran escala, como sistemas de gestión o aplicaciones de comercio 
+   electrónico, donde se necesita una solución robusta y bien estructurada.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 REACT
+━━━━━━━━━━━━━━━━━━━━━━━
+📌 **Definición:**
+   - React es una librería de JavaScript creada por Facebook, especializada en la construcción de interfaces de usuario. 
+   Se basa en un enfoque de componentes reutilizables y se destaca por su eficiencia gracias al uso del DOM virtual, 
+   lo que mejora el rendimiento en aplicaciones interactivas.
+
+📌 **Características principales:**
+   - > Utiliza el DOM virtual, lo que hace que las actualizaciones en la interfaz sean más rápidas y eficientes.
+     > Los componentes son reutilizables, lo que permite crear interfaces más limpias y organizadas.
+     > React es flexible, permitiendo que los desarrolladores elijan otras bibliotecas para manejar el estado y las rutas, 
+     entre otros aspectos.
+     > Aunque React está escrito en JavaScript, también se puede integrar con TypeScript para aprovechar los beneficios de 
+     este último.
+
+📌 **Ejemplo de uso:**
+   - React es excelente para desarrollar aplicaciones interactivas, como redes sociales, chats en tiempo real o cualquier 
+   plataforma que necesite actualizaciones rápidas en la interfaz. Además, con React Native, se pueden crear aplicaciones 
+   móviles con un enfoque similar.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔹 COMPARACIÓN ENTRE ANGULAR Y REACT
+━━━━━━━━━━━━━━━━━━━━━━━
+📌 **Diferencias principales:**
+   - > Angular es un **framework completo**, mientras que React es solo una librería para la interfaz de usuario (UI).
+     > Angular se basa en **TypeScript**, lo que lo hace más adecuado para aplicaciones grandes y estructuradas, mientras que 
+     React usa **JavaScript** de manera predeterminada, lo que le da más flexibilidad.
+     > Angular tiene una curva de aprendizaje más pronunciada debido a su arquitectura compleja, mientras que React es más sencillo 
+     de empezar, pero puede requerir el uso de otras herramientas conforme el proyecto crece.
+
+📌 **Similitudes:**
+   - > Ambos se usan para construir interfaces de usuario dinámicas y de alto rendimiento.
+     >Ambos tienen grandes comunidades de desarrolladores y un excelente soporte a través de documentación, tutoriales y foros.
+
+📌 **Elección entre ambos:**
+   - Si se trata de un proyecto grande y complejo que requiere una solución integral, **Angular** es una excelente opción, ya que 
+   proporciona todo lo necesario desde el inicio. Si el proyecto es más pequeño o si prefieres tener más control sobre las 
+   herramientas que usas, **React** es ideal, ya que permite integrarse con otras bibliotecas según las necesidades del equipo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📖 FUENTES DE INFORMACIÓN:
+   - https://angular.io/docs
+   - https://reactjs.org/docs/getting-started.html
+   - https://www.freecodecamp.org/news/angular-vs-react-the-complete-guide-2019/
+
+💡 NOTAS ADICIONALES:
+   - Angular es más adecuado para aplicaciones que necesitan una estructura sólida y muchas funcionalidades preconfiguradas, 
+   mientras que React es más flexible y perfecto para proyectos donde se valora la rapidez de desarrollo y la personalización.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
