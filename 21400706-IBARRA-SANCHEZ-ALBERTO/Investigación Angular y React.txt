@@ -1,0 +1,122 @@
+Investigación de Angular y React
+
+ANGULAR
+
+¿Qué es Angular?
+Angular es uno de los frameworks de JavaScript mas populares.
+Es un framework de ingeniería de software de código abierto que se utiliza para crear aplicaciones web de una la página. Los desarrolladores también lo utilizan para crear menús animados para páginas web HTML.
+
+El framework es una creación de los ingenieros de Google, Misko Hevery y Adam Abrons. Google lanzo oficialmente la primera versión, AngularJS, en 2012, y la ha mantenido desde entonces.
+
+Antes del lanzamiento de AngularJS, había otras formas de crear paginas dinámicas. Sin embargo, no eran tan convenientes como este framework.
+
+Angular usa la arquitectura Modelo-Vista-Controlador (MVC), que se usa en el desarrollo de aplicaciones web.
+
+
+Este tipo de arquitectura consta de:
+
+  - Modelo: la estructura de datos que administra la información y recibe información del controlador.
+
+  - Vista: la representación de la información.
+
+  - Controlador: responde a la entrada e interactúa con el modelo.
+
+
+Para hacerlo mas simple:
+
+
+  - Angular une JavaScript y HTML.
+
+  - JavaScript acepta la entrada del usuario y la envía a AngularJS.
+
+  - AngularJS usa la entrada para modificar HTML.
+
+Con el framework que vincula JavaScript y HTML, el código entre ellos se sincroniza. Este mecanismo  facilita el trabajo de los desarrolladores porque reduce la cantidad de código necesario para escribir.
+
+
+Ventajas de AngularJS
+
+AngularJS es popular entre los desarrolladores web  por un par de razones:
+
+  - Enlace bidireccional de datos: dado que la arquitectura de AngularJS enlaza JavaScript y HTML, el código de ambos ya esta sincronizado. Por lo tanto, el framework ahorra mucho tiempo a los desarrolladores.
+
+  - Directivas: el  marco amplia la funcionalidad de los archivos HTML con directivas. Para habilitar la directivas, los desarrolladores agregan el prefijo ng- a los atributos HTML. 
+
+  - Estructura de código: AngularJS brinda plantillas; lo que te permite producir aplicaciones en código limpio. No solo te ahorra tiempo, sino que también facilita la modificación o reparación de las aplicaciones.
+
+  - Pruebas: el marco admite pruebas unitarias o de integración.
+
+  - Futuro brillante: el futuro de Angular es brillante debido a su funcionalidad y popularidad. Su base de usuarios sigue creciendo y tiene una gran cantidad de documentación en profundidad que se actualiza constantemente.
+
+  - Compatibilidad móvil y de escritorio: AngularJS puede ejecutarse en la mayoría de los navegadores web. No solo en computadoras de escritorio, sino también en dispositivos móviles.
+
+
+
+
+REACT
+
+Características de React
+
+JXS
+
+JSX en una extensión de la sintaxis de JavaScript utilizada en la creación de elementos de React. Los desarrolladores la emplean para incrustar código HTML en objetos JavaScript. Ya que JSX acepta expresiones validas de JavaScript e incrustaciones de funciones, puede simplificar las estructuras de código complejas.
+
+JSX también ayuda a combatir los ataques Cross-Site Scripting (XSS). Por defecto, React DOM convierte los valores incrustados en JSX en cadenas antes de renderizarlos. Por consiguiente, terceros no pueden inyectar código extra a través de la entrada del usuario a menos que esté explícitamente escrito en la aplicación.
+
+
+Virtual DOM
+
+El Modelo de Objetos del Documento (DOM) presenta una página web en una estructura de árbol de datos. ReactJS almacena árboles DOM virtuales en la memoria. Al hacerlo, React puede aplicar actualizaciones a partes específicas del árbol de datos, lo que es más rápido que volver a renderizar la totalidad del árbol DOM.
+
+Cada vez que haya un cambio en los datos, ReactJS generará un nuevo árbol de DOM virtual y lo comparará con el anterior para encontrar la forma más rápida de implementar los cambios en el DOM real. Este proceso se conoce como diffing.
+
+Al asegurarse de que la manipulación de la interfaz de usuario sólo afecta a secciones específicas del árbol real del DOM, renderizar la versión actualizada tarda menos tiempo y utiliza menos recursos. Esta práctica beneficia enormemente a los proyectos grandes con una interacción intensa con el usuario.
+
+
+Componentes y Props
+
+ReactJS divide la interfaz de usuario en piezas aisladas y reutilizables de código conocidas como componentes. Los componentes de React funcionan de forma similar a las funciones de JavaScript, ya que aceptan entradas arbitrarias denominadas propiedades o props.
+
+Los elementos React devueltos determinan el aspecto de la interfaz de usuario en el lado del cliente. Este es un ejemplo de un componente de función que devuelve un elemento React:
+
+	function Welcome(props) {
+	   return h1> Hola, {props.name}/h1>;
+	}
+
+Es posible tener tantos componentes como sea necesario, sin saturar tu código. 
+
+
+Gestión de Estado
+
+Un estado es un objeto JavaScript que representa una parte de un componente. Cambia cada vez que un usuario interactúa con la aplicación, renderizando una nueva interfaz de cliente para reflejar las modificaciones.
+
+La gestión de estados se refiere a la práctica de gestionar los estados de la aplicación React. Incluye el almacenamiento de datos en librerías de gestión de estados de terceros y la activación del proceso de re-renderización cada vez que los datos cambian.
+
+Una librería de gestión de estados facilita la comunicación y el intercambio de datos entre los componentes. Actualmente existen varias librerías de gestión de estados de terceros, siendo Redux y Recoil las dos más populares.
+
+
+Redux
+
+La librería de gestión de estado Redux tiene un almacén centralizado que mantiene el árbol de estado de una aplicación predecible. La librería también reduce la inconsistencia de los datos al evitar que dos componentes actualicen el estado de la aplicación simultáneamente.
+
+La arquitectura de Redux admite el registro de errores para facilitar la depuración y tiene un método de organización de código estricto, lo que simplifica el mantenimiento. Además, cuenta con un gran número de complementos y es compatible con todas las capas de las interfaces de usuario.
+
+Dicho esto, Redux es bastante complejo y, por lo tanto, no es óptimo para aplicaciones pequeñas con una sola fuente de datos.
+
+
+Recoil
+
+Recoil es una biblioteca de gestión de estados de JavaScript lanzada por Facebook. Emplea funciones puras llamadas selectores para calcular los datos de las unidades actualizables del estado conocidas como átomos. Múltiples componentes pueden suscribirse al mismo átomo y así compartir un estado.
+
+El uso de átomos y selectores evita los estados redundantes, simplifica el código y elimina las repeticiones excesivas de React y de cualquier componente hijo. Recoil es más recomendable que Redux para principiantes, ya que sus conceptos básicos son considerablemente más fáciles de entender.
+
+
+Navegación programática
+
+La navegación programática se refiere a los casos en que las líneas de código crean una acción que redirige a un usuario. Por ejemplo, las acciones de inicio de sesión y de registro navegan programáticamente a los usuarios a una nueva página web.
+
+React Router, la librería estándar de React para el enrutamiento, proporciona múltiples formas de navegación programática segura entre componentes, sin necesidad de que el usuario haga clic en un enlace.
+
+El uso de un componente Redirect es el principal método de navegación programática, siendo history.push() otro enfoque.
+
+Para resumir, el paquete React Router sincroniza la UI con la URL, lo que permite controlar el aspecto de las aplicaciones React sin depender de los enlaces.
