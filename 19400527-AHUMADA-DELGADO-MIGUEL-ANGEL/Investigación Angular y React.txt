@@ -1,0 +1,42 @@
+Angular:
+Es un framework de desarrollo de aplicaciones web creado y mantenido por Google. Es una solución completa para construir aplicaciones web dinámicas, especialmente aquellas que necesitan ser escalables y mantenibles.
+
+		Características Principales:
+Framework Completo: Proporciona todo lo necesario para construir aplicaciones, desde la gestión del estado hasta herramientas de prueba.
+TypeScript: Permite un desarrollo más seguro y escalable.
+Arquitectura MVC: Implementa un modelo claro con componentes, vistas y servicios.
+Data Binding: Utiliza un sistema bidireccional de enlace de datos que mantiene sincronizados el modelo y la vista.
+Dependency Injection (DI): Promueve la modularidad y la reutilización del código mediante inyección de dependencias.
+Directivas: Permiten manipular el DOM de forma declarativa.
+
+Ventajas:
+Ideal para aplicaciones grandes y complejas.
+Ecosistema robusto con herramientas como CLI de Angular para generación de código y gestión de proyectos.
+Soporte de una comunidad amplia y de Google.
+Desventajas:
+Curva de aprendizaje pronunciada debido a su complejidad.
+Puede ser excesivo para proyectos pequeños.
+
+
+
+React:
+Es una biblioteca para construir interfaces de usuario creada y mantenida por Meta (Facebook). Se centra en la vista en el modelo MVC, dejando al desarrollador la elección de otras herramientas.
+
+		Características Principales:
+Biblioteca Flexible: Se utiliza principalmente para construir la UI, pero puedes integrar otras herramientas según las necesidades del proyecto.
+JSX: Una extensión de JavaScript que combina HTML con lógica de componentes.
+Componentes Reactivos: Basado en componentes reutilizables que controlan su estado.
+Unidirectional Data Flow: Promueve un flujo de datos unidireccional para mayor predictibilidad.
+Virtual DOM: React usa un DOM virtual para optimizar la actualización de la interfaz.
+Ventajas:
+Curva de aprendizaje más suave que Angular.
+Flexibilidad para integrar bibliotecas y frameworks adicionales.
+Rendimiento mejorado gracias al DOM virtual.
+Amplia comunidad y soporte.
+Desventajas:
+Es solo la "V" de MVC, lo que requiere integrar otras herramientas como Redux para la gestión del estado o React Router para el enrutamiento.
+Puede ser más difícil estructurar proyectos grandes sin un framework subyacente.
+
+
+
+En conclusión, usa Angular si necesitas un framework completo con herramientas integradas. Pero puedes usar React si prefieres flexibilidad y simplicidad en el manejo de la UI.
