@@ -1,0 +1,65 @@
+***REACT***
+
+React te permite construir interfaces de usuario a partir de piezas individuales llamadas componentes. 
+React es una librería de JavaScript para el desarrollo UI (Interfaz de usuario). Está gestionado por Facebook y una comunidad de desarrolladores de código abierto.
+Los componentes de React reciben datos y devuelven lo que debe aparecer en la pantalla. Puedes pasarles nuevos datos en respuesta a una interacción, como cuando el usuario escribe en un campo de texto. React actualizará entonces la pantalla para que se corresponda con los nuevos datos.
+
+React es una librería que se utiliza tanto en desarrollo web como móvil. Sin embargo, para el desarrollo móvil, debe incoporarse con Cordova. Por otra parte, para desarrollo móvil, existe una librería adicional – React Native.
+React se puede utilizar para crear aplicaciones web de página única (single-page) o de varias páginas (multiple-page).
+
+React es una librería para el desarrollo UI, por lo que las aplicaciones escritas con React para que puedas ser utilizadas necesitan librerías adicionales. Por ejemplo, Redux, React Router o Helmet optimizan los procesos de gestión de estado, enrutamiento e interacción con la API. Funciones como las de enlazado de datos, el enrutamiento basado en componentes, la generación de proyectos, la validación de formularios, o la inyección de dependencias requieren la instalación de módulos o librerías adicionales.
+
+React es minimalista: sin inyección de dependencias, sin plantillas clásicas, sin funciones demasiado complicadas. La librería será bastante sencilla de entender si ya conoces bien JavaScript.
+Sin embargo, se necesita bastante tiempo para aprender a configurar un proyecto porque no existe una estructura de proyecto predefinida. También necesitarás aprender a manejar la librería Redux, que se usa en más de la mitad de las aplicaciones de React para la gestión de estado. Las actualizaciones constantes de la librería también requieren de un esfuerzo adicional por parte del desarrollador. Además, hay muchas buenas prácticas en React, que necesitarás aprender para poder hacer las cosas bien.
+
+React es uno de las librerías de JS más populares en todo el mundo, y la comunidad que lo apoya y desarrolla es enorme.
+Al trabajar con React, debes ser un aprendiz continuamente ya que la librería se actualiza a menudo. Si bien la comunidad intenta avanzar con la documentación más reciente lo más rápido posible, mantenerse al día con todos los cambios no es tan fácil. A veces, puede faltar cierta documentación, pero el problema a menudo se resuelve con el apoyo de la comunidad en foros temáticos.
+React es utilizado activamente por empresas como Facebook, Twitter, Netflix, Airbnb, Paypal, The New York Times, Yahoo, Walmart, Uber y Microsoft.
+
+React se basa en JavaScript ES6 + combinado con JSX script. JSX es una extensión para la sintaxis, lo que hace que un código JavaScript se parezca a un código escrito en HTML. Esto hace que el código sea más fácil de entender y los errores tipográficos son más fáciles de detectar. Para que el código JSX se compile en un navegador, React se complementa con Babel, una herramienta de traducción de código.
+
+En React, las plantillas y la lógica se explican en un solo lugar: al final del componente. Permite al lector captar rápidamente el significado del código incluso si no conoce la sintaxis.
+
+React no es totalmente compatible con la inyección de dependencias, ya que no cumple totalmente con la idea de programación funcional e inmutabilidad de datos. En cambio, tiene un estado global para todos los componentes.
+
+React es compatible con varios editores de código. Por ejemplo, el código en React se puede editar con Sublime Text, Visual Studio y Atom. Para iniciar un proyecto, puede usar la herramienta Create React App (CLI). A su vez, la renderizacion del lado del servidor se completa con el uso del framework Next.js.
+Para probar toda la aplicación escrita en React, necesitarías varias herramientas. Por ejemplo, Enzyme para las pruebas de componentes, Jest para probar el código JS, React-unit para las pruebas unitarias, etc. Para depurar la aplicación en el modo de desarrollo, puede usar una extensión de navegador llamada React Dev Tools.
+Otra herramienta interesante es React 360, que es una biblioteca utilizada para crear aplicaciones AR (realidad aumentada) y VR (realidad virtual).
+
+
+***ANGULAR***
+
+Angular es un framework de JavaScript de código abierto para desarrollo web y móvil. Está basado en TypeScript y está gestionada por el equipo de Angular de Google y la comunidad de desarrolladores de Angular.
+
+Angular es adecuado para el desarrollo web y móvil. En el desarrollo móvil, sin embargo, Ionic realiza una gran parte del trabajo. Además, similarmente a React, Angular tiene un framework de desarrollo móvil adicional. La contraparte de React Native es NativeScript.
+Angular también se puede utilizar para aplicaciones web de página única o de varias páginas.
+
+Angular es un framework completo para el desarrollo de software, el cual generalmente no requiere de librerías adicionales. Todas las funciones mencionadas anteriormente como los enlaces de datos, el enrutamiento basado en componentes, la generación de proyectos, la validación de formularios, y la inyección de dependencias, se pueden implementar con los medios proporcionados por el paquete de Angular.
+
+Angular en sí es una librería enorme, y aprender todos los conceptos asociados llevará mucho más tiempo que en el caso de React. Angular es más complejo de entender, hay mucha sintaxis innecesaria y la administración de componentes es compleja. Algunas características más complejas están integradas en el núcleo de la librería, lo que significa que el desarrollador no puede evitar aprenderlas y usarlas. Además, hay muchas formas de resolver un único problema.
+Aunque TypeScript se parece mucho a JavaScript, también lleva algún tiempo aprenderlo. Dado que el framework se actualiza constantemente, el desarrollador debe realizar un esfuerzo extra de aprendizaje.
+
+Angular es menos admirado que React y encara mucho escepticismo, en parte debido a la impopularidad de Angular 1.0. Los desarrolladores solían descartar el framework por ser demasiado complicado, ya que requería mucho tiempo para aprenderlo. Sin embargo, este framework ha sido desarrollado por Google, que trabaja a favor de la credibilidad de Angular.
+Google proporciona el soporte a largo plazo del framework y lo mejora constantemente. Sin embargo, las actualizaciones son tan rápidas que la documentación a menudo de sufre retrasos.
+Angular también es utilizado por empresas como McDonald's, AT&T, HBO, Apple, Forbes, Adobe, Nike y Microsoft.
+
+Angular puede usar JavaScript o TypeScript, que es un superconjunto de JS desarrollado específicamente para proyectos más grandes. TypeScript es más compacto que JavaScript, el código es más fácil de navegar y los errores tipográficos se detectan fácilmente. El proceso de refactorización de código también se vuelve más simple y rápido.
+
+En Angular, cada plantilla se devuelve con un atributo: una directiva de cómo se debe configurar el objeto. La sintaxis de las directivas Angular es compleja y sofisticada, lo que la hace incomprensible para un lector sin experiencia trabajando con esta tecnología.
+
+La mayor ventaja de Angular reside en el hecho de que, a diferencia de React, admite la inyección de dependencias. Por tanto, Angular permite tener diferentes ciclos de vida para diferentes almacenamientos.
+
+De manera similar a React, Angular es compatible con una variedad de herramientas de edición de código. Por ejemplo, puedes trabajar con editores de código como Aptana, Sublime Text y Visual Studio. Un proyecto se puede configurar rápidamente con Angular CLI. La renderizacion del lado del servidor se completa con la ayuda de Angular Universal.
+A diferencia de React, Angular se puede probar completamente con una sola herramienta. Para las pruebas de extremo  a extremo (end-to-end) en Angular, las plataformas son Jasmine, Protractor y Karma. Otra herramienta que depura la aplicación en el modo de desarrollo es una extensión del navegador Augury.
+
+
+--Similitudes--
+Las similitudes entre Angular y React incluyen:
+
+Arquitectura: Tanto Angular como React tienen una arquitectura basada en componentes. Estos componentes son reutilizables dentro de otros componentes, lo que los hace infinitamente reciclables. En particular, un componente es una pieza de una UI. Por ejemplo, los componentes pueden ser un cuadro de diálogo de inicio de sesión con texto, un campo de contraseña o un botón de inicio de sesión.
+Código abierto: Ambos son de código abierto. Como resultado, React y Angular tienen grandes comunidades de desarrolladores que enriquecen regularmente los recursos.
+Populares: Los desarrolladores utilizan mayoritariamente estas dos tecnologías para construir aplicaciones de página única. Eso afirma que se pueden hacer aplicaciones de una sola página para obtener soluciones digitales más rápidas y mejores.
+Entorno de desarrollo : Angular y React se utilizan para desarrollar el frontend de una aplicación móvil o web.
+Renderización: Angular y React proporcionan un renderizado eficiente del lado del cliente y del lado del servidor.
+Rendimiento: Angular y React ofrecen un rendimiento similar. La diferencia depende sobre todo de la perspectiva del usuario.
+Facilidad de actualización: Tanto Angular como React ofrecen una fácil actualización. Mientras que Angular utiliza CLI, React depende de bibliotecas externas.
