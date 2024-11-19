@@ -1,0 +1,161 @@
+Investigación sobre Angular y React
+
+Introducción
+En el ámbito del desarrollo de software, un framework es una estructura conceptual y tecnológica diseñada para facilitar la creación y organización de aplicaciones. Proporciona una base establecida que ayuda a los desarrolladores a trabajar de manera más eficiente y a reducir errores comunes en la programación. En otras palabras, un framework es una plantilla estructurada que simplifica el desarrollo de aplicaciones. Esto permite acelerar los procesos y enfocarse en las funcionalidades específicas del proyecto. Algunos de los frameworks más destacados son: Bootstrap, React, Angular, Vue.js y Ember.js.
+
+Angular
+Angular es un framework de código abierto basado en TypeScript. Está diseñado principalmente para desarrollar aplicaciones de una sola página (SPA) y es mantenido por Google, que continuamente lo actualiza y mejora.
+
+Versiones de Angular
+El término "Angular" abarca varias versiones de este framework. Fue creado en 2009 y desde entonces ha experimentado múltiples evoluciones. Inicialmente, surgió AngularJS (o Angular 1). Posteriormente, se lanzaron Angular 2, 4, 5, 6, y versiones posteriores hasta llegar a Angular 12, publicada el 12 de mayo de 2021.
+
+Características
+
+Uso del Modelo de Documento de Objeto (DOM).
+Vinculación de datos bidireccional.
+Integración con herramientas de prueba como Jasmine.
+Ventajas
+
+Soporte para componentes personalizados.
+Facilitación de transferencia de datos entre JavaScript y la vista.
+Modularidad con servicios inyectables.
+Compatibilidad con diferentes navegadores.
+Limitaciones
+
+Curva de aprendizaje elevada.
+Opciones limitadas para optimización SEO.
+Las actualizaciones pueden generar problemas de compatibilidad con versiones anteriores.
+Mayor complejidad en comparación con otros frameworks de front-end.
+Instalación
+Prerrequisitos: Antes de instalar Angular, es necesario tener Node.js y npm (Node Package Manager).
+
+Instalar Angular CLI: Ejecuta este comando en la terminal:
+
+bash
+Copiar código
+npm install -g @angular/cli
+Crear una nueva aplicación: Usa el comando ng new seguido del nombre del proyecto, como por ejemplo my-app:
+
+bash
+Copiar código
+ng new my-app
+Ejecutar la aplicación: Ingresa a la carpeta del proyecto y ejecuta el servidor:
+
+bash
+Copiar código
+cd my-app  
+ng serve --open
+Ejemplo de una aplicación: Este es un ejemplo de una lista de tareas en Angular.
+
+app.component.ts:
+
+typescript
+Copiar código
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  todoArray = [];
+  newTodo = '';
+
+  addTodo() {
+    if (this.newTodo !== '') {
+      this.todoArray.push({ title: this.newTodo, completed: false });
+      this.newTodo = '';
+    } else {
+      alert('Field required **');
+    }
+  }
+
+  deleteTodo(todo) {
+    this.todoArray = this.todoArray.filter(item => item !== todo);
+  }
+}
+app.component.html:
+
+html
+Copiar código
+<div>
+  <h1>Lista de Tareas</h1>
+  <form>
+    <input type="text" [(ngModel)]="newTodo" placeholder="Nueva tarea">
+    <button (click)="addTodo()">Agregar</button>
+  </form>
+  <ul>
+    <li *ngFor="let todo of todoArray">
+      {{ todo.title }} ({{ todo.completed ? 'Completada' : 'No Completada' }})
+      <button (click)="deleteTodo(todo)">Eliminar</button>
+    </li>
+  </ul>
+</div>
+React
+React es una biblioteca de JavaScript diseñada para construir interfaces de usuario mediante componentes reutilizables que conforman una aplicación web.
+
+¿Cómo funciona?
+React combina HTML, CSS y JavaScript en componentes que facilitan la modularidad y escalabilidad de las aplicaciones. Además, emplea JSX (JavaScript XML), que permite combinar HTML con JavaScript de manera eficiente.
+
+Características
+
+Usa JSX, una mezcla de HTML y JavaScript.
+Construye la interfaz mediante componentes reutilizables.
+Maneja el ciclo de vida de los componentes en tres fases: montaje, uso y desmontaje.
+Optimiza el rendimiento mediante un DOM virtual.
+Pros
+
+Fácil de aprender.
+Alta flexibilidad y rendimiento.
+Biblioteca de código abierto.
+Permite renderizado eficiente del lado del servidor.
+Contras
+
+Falta de documentación oficial debido a su rápido desarrollo.
+Ausencia de un patrón de desarrollo definido.
+Requiere tiempo para dominar completamente.
+Instalación
+Prerrequisitos: Conocimientos en HTML, CSS y JavaScript. Node.js y npm instalados.
+
+Crear una aplicación: Ejecuta el siguiente comando para crear un proyecto React:
+
+bash
+Copiar código
+npx create-react-app my-app
+Ejecutar la aplicación: Ingresa al directorio del proyecto y ejecuta el servidor de desarrollo:
+
+bash
+Copiar código
+cd my-app  
+npm start
+Ejemplo: Este es un ejemplo básico de configuración en React usando Vite.
+
+main.jsx:
+
+jsx
+Copiar código
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
+Conclusión
+Angular y React son herramientas poderosas que simplifican el desarrollo de aplicaciones web, especialmente en el frontend. Aunque cada una tiene sus fortalezas y limitaciones, ambas ofrecen flexibilidad para crear aplicaciones escalables y con funcionalidades avanzadas.
+
+Bibliografía
+
+Gonçalves, M. J. (2024). ¿Qué es Angular y para qué sirve? Blog de Hiberus. https://www.hiberus.com/crecemos-contigo/que-es-angular-y-para-que-sirve/
+Angular. Documentación oficial. https://docs.angular.lat/guide/setup-local
+Coppola, M. (2023). ¿Qué es React y para qué sirve? Blog HubSpot. https://blog.hubspot.es/website/que-es-react
+Admin_Blog. (2023). React JS: Ventajas e inconvenientes. Blog Solbyte. https://www.solbyte.com/blog/react-js-ventajas-e-inconvenientes/
+Kinsta (2023). Cómo instalar React en Windows, macOS y Linux. https://kinsta.com/es/base-de-conocimiento/instalar-react/
+Inicio rápido – React. Documentación oficial. https://es.react.dev/learn
